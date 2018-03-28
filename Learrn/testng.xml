@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sanity" >
+ <test name="First" >
+   <groups>
+    <run>
+     <include name="Sanity"></include> 
+      <include name="BVT"></include>
+    </run>
+   </groups>
+ <classes>
+  <class name="test.test.Learrn.NewTest"/>
+   <class name="test.test.Learrn.AppTest1"/>
+ </classes>
+ </test>
+ </suite>

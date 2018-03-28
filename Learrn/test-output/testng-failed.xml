@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sanity]">
+  <test thread-count="5" name="First(failed)">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+        <include name="BVT"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.test.Learrn.AppTest1">
+        <methods>
+          <include name="second2" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- test.test.Learrn.AppTest1 -->
+    </classes>
+  </test> <!-- First(failed) -->
+</suite> <!-- Failed suite [Sanity] -->
